@@ -5,7 +5,7 @@ mongo.connect('mongodb+srv://smabdulla958:16%2FJULY%2F2004@cms.qpyvmpn.mongodb.n
     
     username:{
         type:String,
-        required:true,
+        required:true, 
         minlength:5
     },
     email:{
