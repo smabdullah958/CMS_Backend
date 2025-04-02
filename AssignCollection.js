@@ -1,5 +1,5 @@
 let mongoose=require("mongoose");
-mongoose.connect('mongodb+srv://smabdulla958:16%2FJULY%2F2004@cms.qpyvmpn.mongodb.net/project?retryWrites=true&w=majority&appName=CMS');
+mongoose.connect('mongodb+srv://smabdulla958:16%2FJULY%2F2004@cms.qpyvmpn.mongodb.net/project?retryWrites=true&w=majority&appName=CMS&tls=true');
 let Schem=mongoose.Schema({
     
     ComplaintID:{
