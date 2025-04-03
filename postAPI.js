@@ -1,6 +1,6 @@
  process.env.Email_User="smabdulla958@gmail.com"
 process.env.Email_Pass="cmjy httq irvc tltz";
-console.log(process.env)
+console.log(process.env.Email_Pass,process.env.Email_User)
 
 let Express =require('express');
 let bcrypt = require('bcryptjs');
