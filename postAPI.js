@@ -1,5 +1,5 @@
 require("dotenv").config();
-console.log(process.env.Email_User,process.env.Email_Pass)
+console.log(process.env)
 // process.env.Email_User="smabdulla958@gmail.com"
 // process.env.Email_Pass="cmjy httq irvc tltz";
 
