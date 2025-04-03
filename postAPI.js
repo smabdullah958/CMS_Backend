@@ -1,6 +1,7 @@
 require("dotenv").config();
-process.env.Email_User="smabdulla958@gmail.com"
-process.env.Email_Pass="cmjy httq irvc tltz";
+console.log(process.env.Email_User,process.env.Email_Pass)
+// process.env.Email_User="smabdulla958@gmail.com"
+// process.env.Email_Pass="cmjy httq irvc tltz";
 
 let Express =require('express');
 let bcrypt = require('bcryptjs')
