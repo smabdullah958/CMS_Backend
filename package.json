@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node postAPI.js"
+    "start": "node postAPI.js",
+    "postinstall": "npm install bcryptjs"
   },
   "keywords": [],
   "author": "",
