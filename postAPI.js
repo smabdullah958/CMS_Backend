@@ -3,7 +3,7 @@ process.env.Email_Pass="cmjy httq irvc tltz";
 console.log(process.env)
 
 let Express =require('express');
-let bcrypt = require('bcryptjs')
+let bcrypt = require('bcrypt')
 let Cors=require('cors')
 let JWT=require('jsonwebtoken')
  let cookieParser=require('cookie-parser');
@@ -51,6 +51,7 @@ let storage= multer.diskStorage({
 destination:function (req,file,cb){
     cb(null,"./upload")
 },
+
 filename: function(req,file,cb){
 cb(null,Date.now()+ "-"+file.originalname);
 },
