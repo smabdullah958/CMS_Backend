@@ -3,9 +3,9 @@ process.env.Email_Pass="cmjy httq irvc tltz";
 console.log(process.env)
 
 let Express =require('express');
-let bcrypt = require('bcrypt')
-let Cors=require('cors')
-let JWT=require('jsonwebtoken')
+let bcrypt = require('bcrypt');
+let Cors=require('cors');
+let JWT=require('jsonwebtoken');
  let cookieParser=require('cookie-parser');
 let nodemailer=require('nodemailer');
 let multer=require("multer");
