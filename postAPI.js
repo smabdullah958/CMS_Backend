@@ -3,6 +3,7 @@ process.env.Email_Pass="cmjy httq irvc tltz";
 console.log(process.env.Email_Pass,process.env.Email_User)
 
 let Express =require('express');
+let bcrypt = require('bcryptjs');
 let Cors=require('cors');
 let JWT=require('jsonwebtoken');
  let cookieParser=require('cookie-parser');
